@@ -15,7 +15,7 @@ https://download1.rpmfusion.org/
 wget https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-28.noarch.rpm
 ```
 执行结果如下图
-<img src="./download2.png" width=640 height=720 />
+<img src="./download2.png" />
 
 
 2. Fedora 在本地系统中可以直接使用 rpm 工具来安装单个的 .rpm 软件
@@ -36,7 +36,7 @@ rpm -qa     package.rpm      #查询已安装软件包的信息
  sudo rpm -qa | grep rpmfusion-free-release-28
 ```
 执行结果如下图
-<img src="./download1.png" width=640 height=720 />
+<img src="./download1.png" />
 
 3. RPM 卸载
 ```
