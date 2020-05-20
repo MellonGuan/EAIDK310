@@ -7,7 +7,7 @@
 https://download1.rpmfusion.org/
 找到对应的软件，注意EAIDK-310是系统是 Fedora28
 ```
-![8977de9050ea789f68443a0a3048743e.png](evernotecid://B0E0E058-55A2-4A8F-8BA6-60CFDEA6A9F4/appyinxiangcom/16257511/ENResource/p1195)
+<img src="./download.png" width=640 height=720 />
 
 例如
 ```
@@ -15,7 +15,7 @@ https://download1.rpmfusion.org/
 wget https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-28.noarch.rpm
 ```
 执行结果如下图
-![34499fd5a7f24f5e296fff58db7d7dfd.png](evernotecid://B0E0E058-55A2-4A8F-8BA6-60CFDEA6A9F4/appyinxiangcom/16257511/ENResource/p1193)
+<img src="./download2.png" width=640 height=720 />
 
 
 2. Fedora 在本地系统中可以直接使用 rpm 工具来安装单个的 .rpm 软件
@@ -36,7 +36,7 @@ rpm -qa     package.rpm      #查询已安装软件包的信息
  sudo rpm -qa | grep rpmfusion-free-release-28
 ```
 执行结果如下图
-![94e694afeb2210f6e445577214dbea66.png](evernotecid://B0E0E058-55A2-4A8F-8BA6-60CFDEA6A9F4/appyinxiangcom/16257511/ENResource/p1194)
+<img src="./download1.png" width=640 height=720 />
 
 3. RPM 卸载
 ```
